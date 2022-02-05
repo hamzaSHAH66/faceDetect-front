@@ -32,6 +32,8 @@ class Register extends React.Component{
 
     onSubmitRegiter = () =>{
 
+        prompt("done");
+        
         fetch('https://guarded-brook-68451.herokuapp.com/register',{
             method : 'post',
             headers:{'Content-Type': 'application/json'},
