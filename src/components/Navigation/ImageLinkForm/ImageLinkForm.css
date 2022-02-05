@@ -1,0 +1,35 @@
+.form{
+    width: 700px;
+    background:#030250e8 100%;
+
+}
+
+.back{
+
+    background:
+linear-gradient(90deg, rgba(0,13,36,1) 0%, rgba(9,9,121,1) 41%, rgba(0,212,255,1) 100%);
+border: 0px;
+}
+
+@media only screen and (max-width: 700px) {
+    
+    .change{
+
+        font-size: 15px;
+    }
+
+    .form{
+
+        margin: 20px;
+        }
+
+        .media{
+
+            margin: 10px;
+        }
+
+  }
+div input{
+
+    border: 0px;
+}
